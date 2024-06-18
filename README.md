@@ -53,3 +53,44 @@ To view the website locally:
 
 - Explore the various sections and articles available on the website.
 - Use the navigation menu to browse different topics and resources.
+
+## Deployment
+
+### Deploying to GitHub Pages
+
+1. **Ensure your changes are committed:**
+
+    ```sh
+    git add .
+    git commit -m "Your commit message"
+    ```
+
+2. **Push your changes to GitHub:**
+
+    - If your default branch is `master`:
+
+        ```sh
+        git push origin master
+        ```
+
+    - If your default branch is `main`:
+
+        ```sh
+        git push origin main
+        ```
+
+3. **Enable GitHub Pages:**
+    - Go to your repository’s page on GitHub.
+    - Navigate to "Settings" > "Pages".
+    - Under "Source," select the branch you want to publish (usually `master` or `main`).
+    - Click "Save".
+
+### Verifying Your Website
+
+Once GitHub Pages is enabled, your website will be accessible at:
+
+Verify that your website is live and functioning correctly.
+
+## Contributing
+
+We welcome contributions to improve Nutherlif. If you have suggestions or want to contribute code, feel free to fork the repository and submit a pull request. For major changes, please open an issue to discuss the proposed changes.
